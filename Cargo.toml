@@ -1,0 +1,13 @@
+[package]
+name = "asteroids-rust"
+version = "0.1.0"
+authors = ["Andrew Pritchard <andrewjpritchard@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.7.1"
+
+[dependencies.sdl2]
+version = "0.32"
+default-features = false
+features = ["ttf","image","gfx","mixer"]
